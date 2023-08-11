@@ -2,17 +2,20 @@ package org.operadores_aritmeticos;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        run();
+        boolean canRun = true;
+        while (canRun) {
+            canRun = run();
+        }
     }
 
     private static boolean run() {
-        System.out.println("Select a option:\n" +
+        System.out.println("\nSelect a option:\n" +
                 "\t1 - sum\n" +
                 "\t2 - sub\n" +
                 "\t3 - mul\n" +
                 "\t4 - div\n" +
                 "\t5 - pow\n" +
-                "\tOther num to close\n");
+                "\tAnother to close\n");
 
         long n1 = 0, n2 = 0;
         int op = (int) GetNum.getNum("option");
