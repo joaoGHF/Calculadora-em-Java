@@ -2,7 +2,10 @@ package org.operadores_aritmeticos;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        run();
+    }
 
+    private static void run() {
         System.out.println("Select a option:\n" +
                 "\t1 - sum\n" +
                 "\t2 - sub\n" +
