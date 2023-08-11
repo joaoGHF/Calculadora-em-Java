@@ -1,4 +1,4 @@
-package org.operadores_aritmeticos;
+package org.calculadora;
 
 public class App {
     public static void main(String[] args) throws Exception {

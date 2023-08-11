@@ -1,4 +1,4 @@
-package org.operadores_aritmeticos;
+package org.calculadora;
 
 public abstract class Calculadora {
 	public static long sum(long n1, long n2) {
